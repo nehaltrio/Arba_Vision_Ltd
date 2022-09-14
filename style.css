@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Quicksand", sans-serif;
+}
+
+.heading h1 {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 65px;
+  letter-spacing: 10px;
+  color: white;
+}
+
+.heading p {
+  text-align: center;
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+  line-height: 1.5rem;
+  margin-bottom: 3%;
+  color: white;
+}
+
+.heading a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.link {
+  border: 1px rgb(255, 255, 255) solid;
+  width: 180px;
+  height: 30px;
+  padding-top: 6px;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 1%;
+}
+
+.link:hover {
+  background-color: rgba(255, 255, 255, 0.151);
+}
+
+.link_pos {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+/* .link:hover{
+    
+} */
+
+.const p{
+color: white;
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+margin-top: 3%;
+animation: color-change 1s infinite;
+
+}
+
+@keyframes color-change {
+    0% { color: rgb(255, 255, 255); }
+    50% { color: rgb(123, 123, 123); }
+    100% { color: rgb(255, 255, 255); }
+  }
+
+footer {
+  text-align: center;
+  bottom: 0;
+  margin-top: 13%;
+}
+
+footer p {
+  font-size: 14px;
+  color: white;
+}
+
+.back img {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  filter: brightness(0.4);
+}
+
+@media screen and (max-width: 480px) {
+  .heading h1 {
+    font-size: 28px;
+    margin-top: 45%;
+  }
+
+  .const p{
+    font-size: 16px;
+   margin-top: 6%;
+
+  }
+
+  .heading p{
+    font-size: 12px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .link{
+    transform: scale(0.7);
+    margin-top: 40%;
+  }
+
+  footer p{
+    margin-top: 40%;
+    font-size: 10px;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .const p{
+        margin-top: 8%;
+    }
+
+    .heading p{
+       font-size: 10px;
+       width: 90%;
+       margin-left: 5%;
+       margin-right: 5%;
+    }
+
+    footer p{
+        margin-top: 45%;
+    }
+
+    .heading h1{
+        margin-top: 65%;
+    }
+
+    .link{
+        margin-top: 25%;
+    }
+
+
+
+}
