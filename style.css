@@ -93,10 +93,13 @@ footer p {
   filter: brightness(0.4);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .heading h1 {
     font-size: 28px;
     margin-top: 45%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .const p{
@@ -114,7 +117,7 @@ footer p {
 
   .link{
     transform: scale(0.7);
-    margin-top: 40%;
+    margin-top: 30%;
   }
 
   footer p{
@@ -152,3 +155,6 @@ footer p {
 
 
 }
+
+
+
